@@ -1,0 +1,5 @@
+{
+	"scripts": {
+		"lost": "node src/reset.js && git add . && git commit -m \"I lost the game.\" && git push origin master"
+	}
+}
